@@ -1,0 +1,88 @@
+body,div,h1,h2,h3,h4,h5,h6{
+    margin:0px;
+    padding:0px;
+    
+}
+body{
+    /* font:0.24rem/1.5em; */
+    font-family:"微软雅黑"；
+   
+}
+header{
+    width:6.4rem;
+    height:1rem;
+    font-size:0.4em;
+    font-weight:bold;
+    text-align: center;
+    line-height:1rem;
+    background: -webkit-linear-gradient(top,rgba(200,200,200,1)0%,rgba(233,233,233,1)50%,rgba(200,200,200,1)100%);
+}
+#banner{
+    width:6.4rem;
+    height:2.75rem;
+    position:relative; 
+    overflow: hidden;
+}
+#banner>#contents{
+    width:32rem;
+    height:2.75rem;
+    position:absolute;
+}
+#banner>#contents>img{
+    width:6.4rem;
+    height:2.75rem;
+}
+.div1{
+    width:6.4rem;
+    height:9rem;
+    background:url(../../img/indexbg.jpg) left top;
+    background-size:6.4rem auto;
+}
+.div1>section{
+    width:5.4rem;
+    height:2rem;
+    margin:0.3rem 0.5rem;
+    font-size:0.2rem;
+    background:rgba(0,0,0,0.5);
+}
+.div1>.section1>p{
+    font-size:0.2rem;
+    color:#fff;
+    float:left;
+    width:2.4rem;
+    height:1.4rem;
+    margin:0.24rem 0.12rem;
+}
+.div1>.section1>p .span1{
+    font-size:0.3rem;
+    font-weight: bold;
+}
+.div1>.section1 img{
+    width:2.4rem;
+    height:1.4rem;
+    margin:0.24rem 0.12rem;
+    float:right;
+}
+.div1>.section2>p{
+    font-size:0.2rem;
+    color:#fff;
+    float:right;
+    width:2.4rem;
+    height:1.4rem;
+    margin:0.24rem 0.12rem;
+}
+.div1>.section2>p .span1{
+    font-size:0.3rem;
+    font-weight: bold;
+}
+.div1>.section2 img{
+    width:2.4rem;
+    height:1.4rem;
+    margin:0.24rem 0.12rem;
+    float:left;
+}
+.div1>.section2>p .span2{
+    font-size:0.3rem;
+    font-weight: bold;
+}
+
